@@ -1,0 +1,10 @@
+package Polimorfismo;
+
+public class Gato extends Animal {
+	public Gato(String nome, int idade) {
+		super(nome, idade);
+	}
+	public void comer(String comida) {
+		System.out.printf("Foi comer %s /n", comida);
+
+}}
